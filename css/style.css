@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #FFFFFF;
+    top: 0%;
+    width: 100%;
+    position: sticky;
+}
+.divlogo{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    left: 45%;
+}
+.divmenudesplegable{
+    position: absolute;
+    left: 0%;
+}
+.divcontacto{
+    position: absolute;
+    right: 0%;
+}
+.imagenlogo{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #FFFFFF;
+    font-family:'Raleway', sans-serif;
+}
+.liindex{
+    font-family:'Raleway', sans-serif;
+    color: #2E3142;
+    text-decoration: none; 
+}
+.licontacto{
+    font-family:'Raleway', sans-serif;
+    color: #2E3142;
+    text-decoration: none; 
+}
+.liservicios{
+    font-family:'Raleway', sans-serif;
+    color: #2E3142;
+    text-decoration: none; 
+}
+
+h2{
+    color: #2E3142;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 2%;
+}
+h3{
+    margin-left: 2%;
+    font-size: 25px;
+    color: #2E3142;
+    text-align: left;
+    text-decoration: underline;
+}
+.gridContainerIndex1{
+    display: grid;
+    max-width: 80%;
+    max-height: 10%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 45% 10% 45%;
+    grid-template-rows: 30% 70%;
+}
+.uno{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.dos{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.tres{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.gridContainerServicios{
+    display: grid;
+    max-width: 80%;
+    max-height: 5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 80%;
+}
+.servicio{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.muestra{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.descripcion{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.imagenservicio{
+    width: 100%;
+    height: 100%;
+}
+.pdescripcion{
+    margin-left: 2%;
+    color: #2E3142;
+    font-size: 25px;
+    text-align: left;
+}
+.pindex{
+    color: #2E3142;
+    font-size: 25px;
+    text-align: center;
+}
+.imagenproducto1{
+    height: 100%;
+    width: 100%;
+}
+.imagenproducto2{
+    height: 100%;
+    width: 100%;
+}
+.objetivo{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    width: 80%;
+}
+.mapa{
+    margin-top: 2%;
+    margin-bottom: 0%;
+    width: 80%;
+    margin-left: 10%;
+}
+.gridContainerContacto{
+    display: grid;
+    max-width: 80%;
+    max-height: 5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    border: solid 1px black;
+}
+.imgcontacto{
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.nombrecontacto{
+    margin-left: 2%;
+    font-size: 25px;
+    text-align: left;
+}
+.wppcontacto{
+    margin-left: 2%;
+    font-size: 25px;
+    text-align: left;
+}
+.mailcontacto{
+    margin-left: 2%;
+    font-size: 25px;
+    text-align: left;
+}
+.imagencontacto1{
+    height: 100%;
+    width: 100%;
+}
+.imagencontacto2{
+    height: 100%;
+    width: 100%;
+}
+.liwpp{
+    text-decoration: none;
+    color: #2E3142;
+}
+#formulario{
+    margin-left: 10%;
+    color: #2E3142;
+    font-size: 25px;
+}
+.formulario{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 150px;
+    height: 25px;
+}
+.mensaje{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    width: 500px;
+    height: 500px;
+}
+footer{
+    width: 100%;
+    height: 25px;
+    background-color: #ff5964;
+    bottom: 0%;
+    text-align: right;
+}
+.lifooter{
+    margin: 2%;
+    font-family:'Raleway', sans-serif;
+    color: #2E3142;
+    text-decoration: none;
+}
+.ulfooter{
+    display: inline;
+}
